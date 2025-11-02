@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vahshiy Kinolar</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    background: #1f1f1f;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .gallery a {
+    display: block;
+    transition: transform 0.3s;
+  }
+
+  .gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .gallery a:hover img {
+    transform: scale(1.05);
+  }
+
+  .ads {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    min-height: 100px;
+    background: #2a2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+  }
+
+  @media (max-width: 600px) {
+    .gallery img {
+      width: 45%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>Vahshiy Kinolar</header>
+
+<div class="ads">AdSense / Yandex reklama joyi</div>
+
+<div class="gallery">
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino1.jpg" alt="Kino 1"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino2.jpg" alt="Kino 2"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino3.jpg" alt="Kino 3"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino4.jpg" alt="Kino 4"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino5.jpg" alt="Kino 5"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino6.jpg" alt="Kino 6"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino7.jpg" alt="Kino 7"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino8.jpg" alt="Kino 8"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino9.jpg" alt="Kino 9"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino10.jpg" alt="Kino 10"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino11.jpg" alt="Kino 11"></a>
+  <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank"><img loading="lazy" src="images/kino12.jpg" alt="Kino 12"></a>
+</div>
+
+<div class="ads">AdSense / Yandex reklama joyi</div>
+
+</body>
+</html>
