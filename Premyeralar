@@ -1,0 +1,59 @@
+<section style="background:#000; color:#fff; padding:40px; text-align:center;">
+  <h2 style="font-size:28px; margin-bottom:30px; color:#ffcc00;">
+    🎥 Premyerasi kutilayotgan 10 ta film
+  </h2>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:20px;">
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg" alt="Venom: The Last Dance" style="width:100%; border-radius:10px;">
+      <p>Venom: The Last Dance</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Interstellar 2" style="width:100%; border-radius:10px;">
+      <p>Interstellar 2</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" alt="Avatar 3" style="width:100%; border-radius:10px;">
+      <p>Avatar 3</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/cnqwv5Uz3UW5f086IWbQKr3iJtB.jpg" alt="Deadpool & Wolverine" style="width:100%; border-radius:10px;">
+      <p>Deadpool & Wolverine</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg" alt="Top Gun: Maverick 2" style="width:100%; border-radius:10px;">
+      <p>Top Gun: Maverick 2</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/2QL5j6mB4xEoI3N64BFqdHgQ1Ky.jpg" alt="Spider-Man 4" style="width:100%; border-radius:10px;">
+      <p>Spider-Man 4</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg" alt="Inside Out 2" style="width:100%; border-radius:10px;">
+      <p>Inside Out 2</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/kbSxRz9d1vOPVtDk6rPj91eO2zz.jpg" alt="Mission Impossible 8" style="width:100%; border-radius:10px;">
+      <p>Mission Impossible 8</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/yOm993lsJyPmBodlYjgpPwBjXP9.jpg" alt="Joker: Folie à Deux" style="width:100%; border-radius:10px;">
+      <p>Joker: Folie à Deux</p>
+    </div>
+
+    <div>
+      <img src="https://image.tmdb.org/t/p/w500/8dqXyslZ2hv49Oiob9UjlGSHSTR.jpg" alt="Gladiator 2" style="width:100%; border-radius:10px;">
+      <p>Gladiator 2</p>
+    </div>
+
+  </div>
+</section>
