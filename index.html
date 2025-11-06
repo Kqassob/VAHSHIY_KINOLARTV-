@@ -3,31 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vahshiy Kinolar</title>
+  <title>Premyerasi kutilayotgan filmlar</title>
   <style>
-    body { font-family: Arial; max-width: 800px; margin: auto; padding: 20px; background: #f7f7f7; }
-    header { text-align: center; }
-    article { background: white; padding: 20px; margin-top: 20px; border-radius: 10px; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      color: #ffcc00;
+    }
+    .movies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .movie {
+      background: #222;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .movie:hover {
+      transform: scale(1.05);
+    }
+    .movie img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .movie a {
+      display: block;
+      background: #ffcc00;
+      color: #000;
+      padding: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .movie a:hover {
+      background: #ffaa00;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Vahshiy Kinolar</h1>
-    <p>Eng so‘nggi kinolar, treylerlar va yangiliklar</p>
-  </header>
+  <h1>🎬 Premyerasi kutilayotgan 10 ta film</h1>
+  <p>Filmlarni Telegramda tomosha qiling 👇</p>
 
-  <!-- Reklama joyi -->
-  <div style="text-align:center; margin:20px 0;">
-    <p>Bu joyga keyin AdSense yoki Yandex reklama kodi joylanadi</p>
+  <div class="movies">
+    <div class="movie">
+      <img src="https://i.imgur.com/1.jpg" alt="Film 1">
+      <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank">Filmni tomosha qilish</a>
+    </div>
+    <div class="movie">
+      <img src="https://i.imgur.com/2.jpg" alt="Film 2">
+      <a href="https://t.me/VAHSHIY_KINOLARTV_BOT" target="_blank">Filmni tomosha qilish</a>
+    </div>
+    <!-- shu tarzda 10 tagacha film qo‘sh -->
   </div>
 
-  <article>
-    <h2>Salom, bu mening birinchi saytim!</h2>
-    <p>GitHub Pages yordamida bepul hostingda yaratilgan sayt.</p>
-  </article>
-
-  <footer style="text-align:center; margin-top:30px;">
-    <p>© 2025 Vahshiy Kinolar</p>
-  </footer>
+  <p>📲 Bizning Telegram: 
+    <a href="https://t.me/VAHSHIY_KINOLARTV" target="_blank">Kanal</a> | 
+    <a href="https://t.me/VAHSHIY_KINOLARTV_BOT" target="_blank">Bot</a>
+  </p>
 </body>
 </html>
